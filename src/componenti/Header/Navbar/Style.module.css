@@ -1,0 +1,26 @@
+.nav {
+    grid-row: 1 / 2;
+    height: 20vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    padding: 0 10%;
+}
+
+.nav__brand {
+    font-size: 2rem;
+    color: orange;
+}
+
+.nav__contact_us {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        height: 10vh;
+    }
+}

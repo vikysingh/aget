@@ -1,0 +1,87 @@
+.pricing {
+    width: 80vw;
+    height: 56vh;
+
+    padding: 4vh 0 10vw 20vw;
+    background-color: #ddeeeb;
+    text-align: left;
+    margin-top: 5vh;
+}
+
+.pricing > h1 {
+    font-size: 4rem;
+}
+
+.pricing_card {
+    width: 250px;
+    height: 120px;
+
+    position: relative;
+    left: 24%;
+    top: 5%;
+
+    background-color: #fff;
+
+    padding: 10px 10px 20px 20px;
+
+    border-top: 8px solid dodgerblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pricing_card > strong {
+    font-size: 2rem;
+}
+
+.pricing_card > strong > span {
+    font-size: 1rem;
+}
+
+.pricing_card > label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: 10px;
+    opacity: 0.6;
+    color: dodgerblue;
+}
+
+@media (max-width: 1024px) {
+
+    .pricing {
+        padding-bottom: 0;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .pricing {
+        padding-top: 1vh;
+        padding-bottom: 4vh;
+        height: 40vh;
+    }
+
+    .pricing_card {
+        left: 15%;
+    }
+}
+
+@media (max-width: 600px) {
+    .pricing {
+        padding-bottom: 10vw;
+    }
+
+    .pricing h1 {
+        font-size: 2rem;
+    }
+
+    .pricing_card {
+        left: -8%;
+        top: 8%
+    }
+}

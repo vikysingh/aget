@@ -1,0 +1,48 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+    grid-template-columns: 100%;
+    overflow: hidden;
+}
+
+.header_nav {
+    grid-row: 1 / 2;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 20vh;
+}
+
+.header_lower_row {
+    grid-row: 2 / -1;
+    grid-column: 1 / -1;
+
+    height: 80vh;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+@media (max-width: 1024px) {
+    .header {
+        grid-template-rows: 10vh 40vh;
+        height: 50vh;
+    }
+
+    .header_nav {
+        height: 10vh;
+    }
+
+    .header_lower_row {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .header_lower_row {
+        grid-template-columns: 100%;
+        height: 65vh;
+    }
+}
