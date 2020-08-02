@@ -44,3 +44,9 @@
         margin-left: 10%;
     }
 }
+
+@media (max-width: 600px) and (max-height: 580px) {
+    .main {
+        margin-top: 15vh;
+    }
+}
