@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
+# Aget
+### A creative agency website made with ReactJS
 In the project directory, you can run:
 
 ### `npm start`
