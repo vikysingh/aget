@@ -1,0 +1,16 @@
+.nav {
+    grid-row: 1 / 2;
+    height: 80px;
+    width: 80%;
+    padding: 0 10%;
+}
+
+.nav__contact_us {
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        height: 10vh;
+    }
+}

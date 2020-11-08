@@ -1,0 +1,20 @@
+.footer {
+    width: 100vw;
+    height: 30vh;
+    background-color: #222222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.footer a {
+    color: dodgerblue;
+}
